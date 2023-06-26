@@ -14,5 +14,5 @@ RUN npm install
 # Bundle app source
 COPY . /home/gpt/chatgpt-clone
 
-EXPOSE 3001
+EXPOSE 3000
 CMD [ "npm", "start" ]
